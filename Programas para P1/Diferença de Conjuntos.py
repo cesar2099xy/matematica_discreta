@@ -1,0 +1,6 @@
+x = input("Digite os elementos do 1° conjunto: ")
+y = input("Digite os elementos do 2° conjunto: ")
+c1 = x.split(",")
+c2 = y.split(",")
+diferenca = set(c1).difference(set(c2))
+print(f"Diferença entre o 1° conjunto e o 2° Conjunto: {diferenca}")
